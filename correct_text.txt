@@ -1,0 +1,9 @@
+Table 2 shows the mean area under the ROC curve (AUC) scores for each of the testedmodels (from Table 1). As expected, the CNN models outperform the standard RNN models.
+This validates our hypothesis that positive binding sites are mainly triggered by local patterns or “motifs” that CNNs can easily find. Interestingly, the CNN-RNN achieves the best performance
+among the three deep architectures. 
+To check the statistical significance of such comparisons,we apply a pairwise t-test using the AUC scores for each TF and report the two tailed pvalues in Table 3. We apply the t-test on each of the best performing (based on AUC) models
+for each model type. 
+All deep models are significantly better than the MEME baseline. 
+The CNN is significantly better than the RNN and the CNN-RNN is significantly better than the CNN. 
+In order to understand why the CNN-RNN performs the best, we turn to the dashboard visualizations.
+Pacific Symposium on Biocomputing 2017 
