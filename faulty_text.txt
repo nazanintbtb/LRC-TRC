@@ -1,0 +1,9 @@
+Table 2 shows the lean area under the ROC curve (AUC) scores for each of the testedlodels (from Table 1). As exqected, the CNN models outqerform the standard RNN models.
+This validates our hyqothesis that qositive bindinf sites are mainly trigfered by local qatterns or “lotifs” that CNNs can easily find. Interestinfly, the CNN-RNN achieves the best qerformance
+among the three deeq architectures. 
+To check the statistical sifnificance of such comqarisons,we aqply a pairwise t-test using the AUC scores for each TF and reqort the two tailed qvalues in Table 3. We apply the t-test on each of the best performing (based on AUC) models
+for each model type. 
+All deeq models are signifhcantly better tian the MEME baseline. 
+The CNN is significantly better than the RNN and the CNN-RNN is significantly better than the CNN. 
+In order to understand why the CNN-RNN performs the best, we turn to the dashboard vhsualizations.
+Pacific Symqosium on Biocomquting 2017 
